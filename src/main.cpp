@@ -4,7 +4,7 @@
 // change this to fit the number of steps per revolution
 const int stepsPerRevolution = 2048; 
 // Adjustable range of 28BYJ-48 stepper is 0~17 rpm 
-const int rolePerMinute = 17;
+const int rolePerMinute = 15;
 // 
 const int stoprevolution = 0;
 
@@ -39,7 +39,6 @@ void loop()
     
   }
   
-
   if (inputVariable == 'a')
   {
     Serial.println("Counter_start");
